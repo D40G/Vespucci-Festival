@@ -28,6 +28,8 @@ Entertain your city with a FREE music festival map by either playing real life L
 
 - Latest Server Artifacts for [Windows](https://runtime.fivem.net/artifacts/fivem/build_server_windows/master/) or [Linux](https://runtime.fivem.net/artifacts/fivem/build_proot_linux/master/)
 
+- [Gamebuild 2699](https://forum.cfx.re/t/tutorial-forcing-gamebuild-to-casino-cayo-perico-tuners-future-dlcs/4784977) for all props to appear ie the microphone. Other than poorly made MLOs and ymaps, there is really no reason why your server shouldn't be on the latest gamebuild anyways 🤷‍♂️
+
 ------------------------------
 
 # Installation
@@ -48,7 +50,9 @@ ensure pmms
 ```
 **By default, PMMS is set to admin only access, you can change this in the `permissions.cfg` provided with it, if you would prefer all players can access it. You will need to the read pmms installation instructions on the GitHub repository.**
 
-Please also read the installation instructions of httpmanager
+**I recommend locking the Festival Screen when using it, so that others can't stop, rewind, pause, and/or remove/add other songs.**
+
+**Please also read the installation instructions of httpmanager.**
 
 ------------------------------
 
