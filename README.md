@@ -133,4 +133,10 @@ Config.audioVisualizations = {
 }
 ```
 
+------------------------------
+
+# Credits
+
+Thank you to [knjgh0](https://forum.cfx.re/u/knjgh) on the cfx.re forums for allowing me to modify and upload the original files 🙏
+
 
