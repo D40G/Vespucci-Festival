@@ -6,6 +6,17 @@ Entertain your city with a FREE music festival map by either playing real life L
 
 **The map requires [PMMS FiveM / RedM synchronized media player by Kibook](https://github.com/kibook/pmms) for all screens to syncronize.**
 
+# Screenshots 📸
+
+| | | |
+|-|-|-|
+| <img src="/Screenshots/001.png" width="320"> | <img src="/Screenshots/002.png" width="320"> | <img src="/Screenshots/003.png" width="320"> |
+| <img src="/Screenshots/004.png" width="320"> | <img src="/Screenshots/005.png" width="320"> | <img src="/Screenshots/006.png" width="320"> |
+| <img src="/Screenshots/007.png" width="320"> | <img src="/Screenshots/008.png" width="320"> | <img src="/Screenshots/009.png" width="320"> |
+| <img src="/Screenshots/010.png" width="320"> | <img src="/Screenshots/011.png" width="320"> | <img src="/Screenshots/012.png" width="320"> |
+| <img src="/Screenshots/013.png" width="320"> | <img src="/Screenshots/014.png" width="320"> | <img src="/Screenshots/015.png" width="320"> |
+[![Audio Visualizations](https://i.imgur.com/TSyduCPm.jpg)](https://imgur.com/TSyduCPs) | [![Audio Visualizations](https://i.imgur.com/9psZ7tVm.jpg)](https://imgur.com/9psZ7tV)| [![Audio Visualizations](https://i.imgur.com/C6z2s20m.jpg)](https://imgur.com/C6z2s20)
+
 
 
 
