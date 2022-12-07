@@ -21,9 +21,11 @@ Entertain your city with a FREE music festival map by either playing real life L
 
 # Installation
 
-- Download Vespucci-Festival
+- Download Vespucci-Festival and drag the Vespucci-Festival folder into your server
 - Download httpmanager
 - Download pmms
+- Open the `PMMS Festival Screen Config` folder and copy the files over to the `pmms` resource folder
+
 
 Add the following to your server.cfg:
 
@@ -33,48 +35,17 @@ ensure httpmanager
 exec @pmms/permissions.cfg
 ensure pmms
 ```
-By default, PMMS is set to admin only access, you can change this in the `permissions.cfg` provided with it, if you would prefer all players can access it. You will need to the read pmms installation instructions on the GitHub repository.
+**By default, PMMS is set to admin only access, you can change this in the `permissions.cfg` provided with it, if you would prefer all players can access it. You will need to the read pmms installation instructions on the GitHub repository.**
 
 Please also read the installation instructions of httpmanager
 
 ------------------------------
 
-# Recommendation
+# PMMS
 
-Open pmms > config.lua and change these values, so that ther Festival Screen audio can be heard from the pier making it a little more realistic:
+I have provided files for PMMS which will change the values and settings, so that the Festival Screen audio can be heard from the pier making it a little more realistic. I have also provided some default radio stations that you can select in the UI of PMMS, to use if you wish to play those, on the festival screen, or inside your vehicle. They are examples, and you can of course add your own.
 
-```lua
-Config = {}
-
--- Whether the game is RDR2 or GTA V
-Config.isRDR = IsDuplicityVersion() and GetConvar("gamename", "gta5") == "rdr3" or not TerraingridActivate
-
--- Max distance at which inactive media player entities appear
-Config.maxDiscoveryDistance = 80.0
-
--- Default sound attenuation multiplier when in the same room
-Config.defaultSameRoomAttenuation = 0.0
-
--- Default sound attenuation multiplier when in a different room
-Config.defaultDiffRoomAttenuation = 4.0
-
--- Default range where active media players are visible/audible
-Config.defaultRange = 80.0
-
--- Maximum range that players can set
-Config.maxRange = 400.0
-
--- Difference between the base volume in the same room and a different room
-Config.defaultDiffRoomVolume = 0.25
-
--- Whether the filter options is enabled by default
-Config.enableFilterByDefault = Config.isRDR
-
--- Default size for the NUI video screen
-Config.defaultVideoSize = 30
-```
-
-Scroll down and find `Config.audioVisualizations = {` and paste in the following
+In the config file, I have set up the audio vislualizations for you and have marked out how many colours each one supports. You can of course change these if you wish to. Colours support names and/or hex codes
 
 ```lua
 Config.audioVisualizations = {
@@ -90,7 +61,7 @@ Config.audioVisualizations = {
 	},
 	["dualbars"] = {
 		name = "Dual Bars",
-		colors = {"#ee188c", "#176bed", "#16ec6d", "#5ffd1e", "#dcaa0a"} -- 5 Colours diffRoom, Left To Right
+		colors = {"#ee188c", "#176bed", "#16ec6d", "#5ffd1e", "#dcaa0a"} -- 5 Colours, Left To Right
 	},
 	["dualbars blocks"] = {
 		name = "Blocky Dual Bars"
@@ -101,14 +72,14 @@ Config.audioVisualizations = {
 	},
 	["flower"] = {
 		name = "Flower",
-		colors = {"#ee188c", "#176bed", "#16ec6d", "#5ffd1e", "#dcaa0a"} -- 5 Colours diffRoom, Left To Right
+		colors = {"#ee188c", "#176bed", "#16ec6d", "#5ffd1e", "#dcaa0a"} -- 5 Colours, Left To Right
 	},
 	["flower blocks"] = {
 		name = "Blocky Flower"
 	},
 	["orbs"] = {
 		name = "Orbs",
-		colors = {"#ee188c","#7611f7"} -- diffRoom 2 Colours 
+		colors = {"#ee188c","#7611f7"} -- 2 Colours 
 	},
 	["ring"] = {
 		name = "Ring"
@@ -147,6 +118,4 @@ Config.audioVisualizations = {
 }
 ```
 
-This will colourise the audio visualisations. You can of course change them yourself if you want to.
 
-I have also provided the `defaultMediaPlayers.json` file which you will need to put inside pmms, this configures the Festival Beach screen for you.
