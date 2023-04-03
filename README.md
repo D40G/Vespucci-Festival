@@ -6,6 +6,13 @@ Entertain your city with a FREE music festival map by either playing real life L
 
 **The map requires [PMMS FiveM / RedM synchronized media player by Kibook](https://github.com/kibook/pmms) for all screens to syncronize.**
 
+<p align="center">
+  <a href="https://github.com/TayMcKenzieNZ/Vespucci-Festival"><img src="https://img.shields.io/badge/license-GPL--3.0-blue.svg" alt="License"></a>
+  <a href="https://github.com/TayMcKenzieNZ/Vespucci-Festival/stargazers"><img src="https://img.shields.io/github/stars/TayMcKenzieNZ/Vespucci-Festival.svg?style=social" alt="Star"></a>
+  <a href="https://github.com/TayMcKenzieNZ/Vespucci-Festival/network/members"><img src="https://img.shields.io/github/forks/TayMcKenzieNZ/Vespucci-Festival.svg?style=social&label=Forks" alt="Forks"></a>
+</p>
+
+
 # Screenshots 📸
 
 | | | |
