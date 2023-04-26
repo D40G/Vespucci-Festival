@@ -4,7 +4,7 @@ Config = {}
 Config.isRDR = IsDuplicityVersion() and GetConvar("gamename", "gta5") == "rdr3" or not TerraingridActivate
 
 -- Max distance at which inactive media player entities appear
-Config.maxDiscoveryDistance = 80.0
+Config.maxDiscoveryDistance = 400.0
 
 -- Default sound attenuation multiplier when in the same room
 Config.defaultSameRoomAttenuation = 0.0
@@ -13,7 +13,7 @@ Config.defaultSameRoomAttenuation = 0.0
 Config.defaultDiffRoomAttenuation = 4.0
 
 -- Default range where active media players are visible/audible
-Config.defaultRange = 80.0
+Config.defaultRange = 200.0
 
 -- Maximum range that players can set
 Config.maxRange = 400.0
